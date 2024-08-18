@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    <title>AI Race Simulator</title>
+  </head>
+  <body>
+    <div class="banner-container">
+      <img
+        id="banner"
+        src="img/banner.png"
+        alt="a vector image of a racing car"
+      />
+    </div>
+    <div class="body-container">
+      <div class="form-container">
+        <form id="prompt-form">
+          <input
+            type="text"
+            id="driver"
+            placeholder="Pick a driver (current grid or past)"
+          />
+          <input
+            type="text"
+            id="track"
+            placeholder="Write a track (current or past)"
+          />
+          <input
+            type="text"
+            id="condition"
+            placeholder="Race condition:(Wet or Dry)"
+          />
+          <input type="submit" name="SUMBIT PROMPT" id="submit-btn" />
+        </form>
+      </div>
+      <div class="response-container">
+        <h2>Race Simulation Summary:</h2>
+        <br />
+        Driver: Lewis Hamilton Track: Monaco Weather: Rainy Race Strategy: 2 pit
+        stops with Intermediate and Soft tires Race Highlights:
+        <br />
+        Lap 1-10: Hamilton starts strong, maintaining a lead despite the
+        challenging wet conditions. Lap 11: First pit stop for Intermediate
+        tires. Quick and efficient, keeping him in the top 3. Lap 25: Heavy rain
+        causes a few drivers to spin out, but Hamilton manages to stay on track.
+        Lap 35: Second pit stop for Soft tires as the rain eases. Hamilton’s
+        team executes a flawless stop. Lap 50: Hamilton battles with Verstappen
+        for the lead, showcasing incredible skill and control. Final Lap:
+        Hamilton crosses the finish line first, securing a thrilling victory in
+        the rain-soaked Monaco Grand Prix. <br />
+        Final Standings: Lewis Hamilton Max Verstappen Charles Leclerc
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        This project was coded by
+        <a href="https://github.com/dbz221" target="_blank">Fatemeh</a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Vercel</a>
+      </p>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
