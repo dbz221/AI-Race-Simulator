@@ -27,6 +27,9 @@ footer {
   background: #efeeeea9;
   box-shadow: rgba(66, 35, 33, 0.056) 0px 4px 30px 0px;
 }
+.hidden {
+  display: none;
+}
 form {
   display: flex;
   align-items: center;
@@ -61,4 +64,18 @@ footer {
 a {
   text-decoration: none;
   color: #dd0000e2;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
