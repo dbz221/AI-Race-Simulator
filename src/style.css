@@ -65,7 +65,8 @@ a {
   text-decoration: none;
   color: #dd0000e2;
 }
-/* .generating {
+
+.generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
 
@@ -78,4 +79,4 @@ a {
   to {
     visibility: hidden;
   }
-} */
+}

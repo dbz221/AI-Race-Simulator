@@ -20,6 +20,11 @@ You need to output the following in a clear format with appropriate spacing to p
   let apiKey = "ebet14afo803932798f53163dbb80c50";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let raceSim = document.querySelector("#response-container");
+  raceSim.classList.remove("hidden");
+
+  raceSim.innerHTML = `<div class="generating">⏳ Generating </div>`;
+
   axios.get(apiURL).then(generateRace);
   // console.log(`apiurl is ${apiURL}`);
 }
