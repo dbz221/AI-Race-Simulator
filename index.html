@@ -16,26 +16,21 @@
       />
     </div>
     <div class="body-container">
+      <h1>Race Simulation</h1>
       <div class="form-container">
         <form id="prompt-form">
-          <input
-            type="text"
-            id="driver"
-            placeholder="Pick a driver (current grid or past)"
-            required
-          />
-          <input
-            type="text"
-            id="track"
-            placeholder="Write a track (current or past)"
-            required
-          />
+          <input type="text" id="driver" placeholder="Pick a driver" required />
+          <input type="text" id="track" placeholder="Write a track" required />
           <input
             type="text"
             id="condition"
             placeholder="Race condition:(Wet or Dry)"
             required
           />
+          <small
+            >i.e. Driver:<em>Lewis Hamilton</em> , Track:<em>Spa</em>, Race
+            Condition:<em>Dry</em></small
+          >
           <input type="submit" name="SUMBIT PROMPT" id="submit-btn" />
         </form>
       </div>
